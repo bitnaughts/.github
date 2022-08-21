@@ -1,0 +1,32 @@
+@startuml
+!theme plain
+left to right direction
+skinparam linetype ortho
+skinparam actorStyle awesome
+node BitNaughts {
+  usecase "Tutorial" as BN1
+  usecase "Multiplayer" as BN3
+  usecase "Ship Editor" as BN2
+  usecase "Campaign" as BN4
+}
+:Player: --> (BN1)
+:Player: --> (BN2)
+:Player: --> (BN3)
+:Player: --> (BN4)
+
+cloud Azure\n {
+  database "**GitDB**" as COLD1
+  queue "**RedisDB**" as WARM1
+  card "Mainframe" as WARMFA {
+    collections "Function App"
+    portin Ping
+    portin Git
+    portout LibGit2Sharp
+    portout StackExchange.Redis
+  }
+}
+StackExchange.Redis <--> WARM1
+LibGit2Sharp --> COLD1
+BN3 <--> Ping
+BN2 --> Git
+@enduml
