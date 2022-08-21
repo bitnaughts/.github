@@ -8,7 +8,7 @@ git clone --recurse-submodules https://github.com/bitnaughts/bitnaughts.git
 
 ## Use Cases
 
-![Use Case Diagram](../images/use-case.png)
+![Use Case Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/use-case.png)
 
 ## References
 
