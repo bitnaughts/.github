@@ -1,0 +1,95 @@
+@startuml
+!unquoted procedure SALT($x)
+"{{
+salt
+%invoke_procedure("_"+$x)
+}}" as $x
+!endprocedure
+
+!procedure _choose()
+{+
+<b>an example
+choose one option
+()one
+()two
+[ok]
+}
+!endprocedure
+
+!procedure _wait()
+{#
+<b>Text UI (TUI) | <b>Graphic UI (GUI)
+{S
+Terminal:
+$ make
+<b>$ nano
+$ cp
+$ rm
+$ git
+$ clear
+$ about
+$ tutorial
+.
+} | {
+Structures:
+<b>* Create
+* Edit 
+* Copy
+* Delete
+* Move
+* Rotate
+* Resize
+.
+.
+<i>\tSubtitles
+}
+}
+!endprocedure
+
+!procedure _success()
+{+
+<b>Text UI (TUI)
+{S
+Terminal:
+$ nano Processor
+.
+public static void Main ()
+.  Thruster.ThrustOn();
+.  while (true)
+.    if (Sensor.Scan() > 0) 
+.      Cannon.Fire();
+.    if (Input.GetKey("A"))
+.      BoosterL.ThrustOn();
+.    if (Input.GetKey("D"))
+.      BoosterR.ThrustOn();
+.
+}
+}
+!endprocedure
+
+!procedure _error()
+{+
+<b>Graphic UI
+{+
+"Name         "
+{ Position: | "(0, 0)"
+Size: | "(0, 0)"
+Rotation: | "0°    "
+}
+^Component Class^ Processor^ Bulkhead^ Sensor^ Cannon^ Booster^ Thruster^ Gimbal^ ...^   
+.
+.
+.
+.
+.
+.
+.
+[Create Component]
+}
+}
+!endprocedure
+
+(*) --> SALT(wait)
+wait -down-> SALT(success)
+wait -down-> SALT(error)
+@enduml

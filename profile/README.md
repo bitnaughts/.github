@@ -33,9 +33,13 @@ git clone --recurse-submodules https://github.com/bitnaughts/bitnaughts.git
 
 ![Use Case Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/use-case.png)
 
-## Component Diagram
+## Components
 
 ![Component Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/component.png)
+
+## Salt Diagram
+
+![Salt Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/salt.png)
 
 ## Gantt Chart (as of 8/22)
 
