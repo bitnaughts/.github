@@ -12,11 +12,11 @@ git clone --recurse-submodules https://github.com/bitnaughts/bitnaughts.git
 
 ## Component Diagram
 
-![Component Diagram](../images/component.png)
+![Component Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/component.png)
 
 ## Gantt Chart (as of 8/22)
 
-![Gantt Chart](../images/gantt.png)
+![Gantt Chart](https://raw.githubusercontent.com/bitnaughts/.github/main/images/gantt.png)
 
 ## References
 
