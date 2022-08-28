@@ -1,0 +1,107 @@
+@startuml
+
+skinparam linetype poly
+class Structure {
++Dictionary<string, Component>
++FixedUpdate()
+}
+
+abstract class Object {
++string name
+#clone()
+#finalize()
+#getClass()
+}
+
+abstract class Component {
+#Vector pos
+#Vector siz
+#float rot
+}
+
+class Processor {
+#Stack stack
++Main()
+}
+
+entity Stack{
++Push()
++Pop()
+}
+
+class Bulkhead {
+#Heap heap
++Allocate()
++Deallocate()
+}
+
+
+entity Heap {
++New()
++Delete()
+}
+
+class Sensor {
+#Ray ray
++Scan()
+}
+
+entity Ray {
++Cast()
++Length()
+}
+
+class Cannon {
+#float[] barrels
++Fire()
+}
+
+entity Shell {
+#float speed
++OnCollision()
+}
+
+class Booster {
+#float throttle
++ Fire()
++ Thrust()
+}
+
+entity Torpedo{
+#float speed
++OnCollision()
+}
+
+class Thruster {
+#float throttle
++Thrust()
+}
+
+class Gimbal {
+#float rot
++Rotate()
+}
+
+class Printer {
+#float speed
++Print()
+}
+
+Structure::Dictionary --> Component : Value
+Structure::Dictionary --> Object::name : Key
+Object --> Component
+Component --> Booster
+Component --> Thruster
+Component --> Bulkhead
+Bulkhead::Allocate --> Heap
+Component --> Gimbal
+Component --> Processor
+Processor::Main --> Stack
+Component --> Sensor
+Sensor::Scan --> Ray
+Component --> Cannon
+Cannon::Fire --> Shell 
+Booster::Fire --> Torpedo
+Component --> Printer
+@enduml
+

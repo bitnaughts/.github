@@ -1,0 +1,56 @@
+@startgantt
+
+title BitNaughts Hackathon '22 
+hide footbox
+projectscale daily
+Project starts the 2st of september 2022
+-- **Build** --
+[**Spec Review**\n(in-person)] as [TASK1] lasts 8 days
+note bottom
+ - Review pitch 
+ - Confirm process
+ - List feature gaps
+end note
+[**Finish Feature Backlog**\n(daily scrum)] as [TASK2] lasts 46 days
+note bottom
+  - **bitnaughts.mainframe**: Multiplayer infrastructure
+  - **bitnaughhts.interpreter**: Code executor
+  - **bitnaughts.components**: Component logic
+  - **bitnaughts.ui.ux**: Terminal UI (TUI) + code editor
+end note
+[TASK1]->[TASK2]
+-- **Release** --
+[**Build .apk**] as [RELEASE1] lasts 7 days
+[**Build .ipa**] as [RELEASE2] lasts 7 days
+[**Build .exe**] as [RELEASE3] lasts 7 days
+[**Build .io**] as [RELEASE4] lasts 7 days
+
+[TASK2]->[RELEASE1]
+[TASK2]->[RELEASE2]
+[TASK2]->[RELEASE3]
+[TASK2]->[RELEASE4]
+note bottom
+Some markets
+may take longer
+to onboard to.
+end note
+-- **Publicize** --
+[**Twitter Beta Test**] as [PUBLIC1] lasts 30 days
+note bottom
+  - Test system under load
+  - Facilitate and iterate on user feedback
+end note
+[**Twitch Livestream**] as [PUBLIC2] lasts 30 days
+note bottom
+  - Real-time chat integrations
+  - Test alternate revenue source
+end note
+[RELEASE1]->[PUBLIC1]
+[RELEASE2]->[PUBLIC1]
+[RELEASE3]->[PUBLIC1]
+[RELEASE4]->[PUBLIC1]
+[PUBLIC1]->[PUBLIC2]
+2022-09-02 to 2022-09-09 are named [**@California**]
+2022-09-02 to 2022-09-09 are colored in yellow
+2022-09-10 to 2022-12-31 are named [**@Washington**]
+@endgantt
