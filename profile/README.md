@@ -2,7 +2,7 @@
 
 ## About
 
-BitNaughts is a educational programming video-game; it's code gamified!
+BitNaughts is an educational programming video-game; it's code gamified!
 
 - [Microsoft Hackathon '20](https://www.youtube.com/watch?v=kQaZFAu65z4)
 - [Microsoft Hackathon '21](https://www.youtube.com/watch?v=-gN4dHWMkSI)
@@ -32,18 +32,6 @@ git clone --recurse-submodules https://github.com/bitnaughts/bitnaughts.git
 ## Use Cases
 
 ![Use Case Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/use-case.png)
-
-## Components
-
-![Component Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/component.png)
-
-## Salt Diagram
-
-![Salt Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/salt.png)
-
-## Gantt Chart (as of 8/22)
-
-![Gantt Chart](https://raw.githubusercontent.com/bitnaughts/.github/main/images/gantt.png)
 
 ## References
 
