@@ -1,10 +1,5 @@
 @startuml
 
-skinparam linetype poly
-class Structure {
-+Dictionary<string, Component>
-+FixedUpdate()
-}
 
 abstract class Object {
 +string name
@@ -13,10 +8,19 @@ abstract class Object {
 #getClass()
 }
 
+class Structure {
++Dictionary<string, Component>
++FixedUpdate()
+}
+
 abstract class Component {
 #Vector pos
 #Vector siz
 #float rot
+}
+
+interface Entry {
+Main()
 }
 
 class Processor {
@@ -29,19 +33,28 @@ entity Stack{
 +Pop()
 }
 
+interface Memory {
+Allocate()
+Deallocate()
+}
+
 class Bulkhead {
 #Heap heap
 +Allocate()
 +Deallocate()
 }
 
-
 entity Heap {
 +New()
 +Delete()
 }
 
-class Sensor {
+
+interface Scanner {
+Scan()
+}
+
+class Radar {
 #Ray ray
 +Scan()
 }
@@ -49,6 +62,10 @@ class Sensor {
 entity Ray {
 +Cast()
 +Length()
+}
+
+interface Gun {
+Fire()
 }
 
 class Cannon {
@@ -59,6 +76,11 @@ class Cannon {
 entity Shell {
 #float speed
 +OnCollision()
+}
+
+
+interface Engine {
+Thrust()
 }
 
 class Booster {
@@ -77,9 +99,17 @@ class Thruster {
 +Thrust()
 }
 
+interface Rotator {
+Rotate()
+}
+
 class Gimbal {
 #float rot
 +Rotate()
+}
+
+interface Replicator {
+Print()
 }
 
 class Printer {
@@ -87,21 +117,30 @@ class Printer {
 +Print()
 }
 
-Structure::Dictionary --> Component : Value
-Structure::Dictionary --> Object::name : Key
-Object --> Component
-Component --> Booster
-Component --> Thruster
-Component --> Bulkhead
-Bulkhead::Allocate --> Heap
-Component --> Gimbal
-Component --> Processor
-Processor::Main --> Stack
-Component --> Sensor
-Sensor::Scan --> Ray
-Component --> Cannon
-Cannon::Fire --> Shell 
-Booster::Fire --> Torpedo
-Component --> Printer
+Structure::Dictionary --o Component
+Object --|> Component
+Object --|> Structure
+Engine --> Booster
+Engine --> Thruster
+Component --|> Booster
+Component --|> Thruster
+Component --|> Bulkhead
+Memory --> Bulkhead
+Bulkhead --* Heap
+Rotator --> Gimbal
+Component --|> Gimbal
+Component --|> Processor
+Entry --> Processor
+Processor --* Stack
+Scanner --> Radar
+Component --|> Radar
+Radar --* Ray
+Gun --> Cannon
+Gun --> Booster
+Component --|> Cannon
+Cannon --* Shell
+Booster --* Torpedo
+Replicator --> Printer
+Component --|> Printer
 @enduml
 
