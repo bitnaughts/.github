@@ -34,6 +34,11 @@ git clone --recurse-submodules https://github.com/bitnaughts/bitnaughts.git
 
 ![Use Case Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/use-case.png)
 
+
+## Classes
+
+![Class Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/class-diagram.png)
+
 ## References
 
 [BitNaughts - Azure DevOps](https://dev.azure.com/bitnaughts/bitnaughts)
