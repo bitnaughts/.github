@@ -1,6 +1,6 @@
 # BitNaughts
 
-![Banner](https://raw.githubusercontent.com/bitnaughts/bitnaughts.assets/master/Sprites/BitNaughtsCodeGamified.png)
+![Banner](https://raw.githubusercontent.com/bitnaughts/bitnaughts.assets/master/Sprites/BannerQR.png)
 
 ## About
 
