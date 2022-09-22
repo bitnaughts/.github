@@ -1,5 +1,7 @@
 # BitNaughts
 
+![Banner](https://raw.githubusercontent.com/bitnaughts/bitnaughts.assets/master/Sprites/BitNaughtsCodeGamified.png)
+
 ## About
 
 BitNaughts is an educational programming video-game; it's code gamified!
@@ -11,7 +13,7 @@ BitNaughts is an educational programming video-game; it's code gamified!
 ## Dependencies
 
 - [Unity Hub](https://unity3d.com/get-unity/download)
-- [Unity 2020.3.38](https://unity3d.com/unity/whats-new/2020.3.38)
+- [Unity 2020.3.39](https://unity3d.com/unity/whats-new/2020.3.38)
 - [Git](https://git-scm.com/)
 
 ## Initialization
