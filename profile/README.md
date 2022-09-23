@@ -1,6 +1,8 @@
-# BitNaughts
+![Banner](https://raw.githubusercontent.com/bitnaughts/bitnaughts.assets/master/Sprites/BUSINESS-FRONT.png)
+![Banner](https://raw.githubusercontent.com/bitnaughts/bitnaughts.assets/master/Sprites/BUSINESS-BACK.png)
+> [Vote - Microsoft Hackathon 2022 Project Page (Microsoft FTE only)](https://hackbox.microsoft.com/project/340)
 
-## About
+## Introduction
 
 BitNaughts is an educational programming video-game; it's code gamified!
 
@@ -11,14 +13,19 @@ BitNaughts is an educational programming video-game; it's code gamified!
 ## Dependencies
 
 - [Unity Hub](https://unity3d.com/get-unity/download)
-- [Unity 2020.3.38](https://unity3d.com/unity/whats-new/2020.3.38)
-- [Git](https://git-scm.com/)
+- [Unity 2020.3.39](https://unity3d.com/unity/whats-new/2020.3.38)
+- [Git](https://git-scm.com/) ([GitHub Desktop](https://desktop.github.com/) recommended)
+- [.NET Core 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
+- [Azure Function Core Tools](https://github.com/Azure/azure-functions-core-tools)
+- [VS Code](https://code.visualstudio.com/Download) ([Azure Extension](https://code.visualstudio.com/docs/azure/extensions) recommended)
 
 ## Initialization
 
 ```
 git clone --recurse-submodules https://github.com/bitnaughts/bitnaughts.git
 ```
+
+> Recommendation: Add all submodules to GitHub Desktop.
 
 ## Submodules
 
@@ -27,9 +34,9 @@ git clone --recurse-submodules https://github.com/bitnaughts/bitnaughts.git
     - [Components](https://github.com/bitnaughts/bitnaughts.components)
     - [UI/UX](https://github.com/bitnaughts/bitnaughts.ui.ux)
     - [C# Interpreter](https://github.com/bitnaughts/csharp.interpreter)
+    - [Database](https://github.com/bitnaughts/bitnaughts.db)
 - [Frontend](https://github.com/bitnaughts/bitnaughts.github.io)
 - [Backend](https://github.com/bitnaughts/bitnaughts.mainframe)
-- [Database](https://github.com/bitnaughts/bitnaughts.db)
 
 ## Use Cases
 
