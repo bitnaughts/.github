@@ -11,21 +11,22 @@ node BitNaughts {
 }
 :Player: --> (BN1)
 :Player: --> (BN2)
-:Player: --> (BN3)
+:Player: <--> (BN3)
 :Player: --> (BN4)
 
 cloud Azure\n {
   database "**GitDB**" as COLD1
-  queue "**RedisDB**" as WARM1
+  queue "**CosmosDB**" as WARM1
   card "Mainframe" as WARMFA {
     collections "Function App"
     portin Ping
     portin Git
     portout LibGit2Sharp
-    portout StackExchange.Redis
+    portout MongoDB.Driver
   }
 }
 StackExchange.Redis <--> WARM1
+MongoDB.Driver <--> WARM1
 LibGit2Sharp --> COLD1
 BN3 <--> Ping
 BN2 --> Git
