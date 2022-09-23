@@ -25,7 +25,6 @@ cloud Azure\n {
     portout MongoDB.Driver
   }
 }
-StackExchange.Redis <--> WARM1
 MongoDB.Driver <--> WARM1
 LibGit2Sharp --> COLD1
 BN3 <--> Ping
