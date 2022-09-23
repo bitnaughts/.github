@@ -6,7 +6,7 @@
 
 BitNaughts is an educational programming video-game; it's code gamified!
 
-- [YouTube - BitNaughts Tutorial](https://www.youtube.com/watch?v=08kpwhxZ0o4)
+- [YouTube - BitNaughts Tutorial](https://www.youtube.com/watch?v=pv2DEBMD4ko)
 - [YouTube - Microsoft Hackathon '21](https://www.youtube.com/watch?v=-gN4dHWMkSI)
 - [YouTube - Microsoft Hackathon '20](https://www.youtube.com/watch?v=kQaZFAu65z4)
 
