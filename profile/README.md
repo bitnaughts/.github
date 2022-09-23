@@ -42,10 +42,13 @@ git clone --recurse-submodules https://github.com/bitnaughts/bitnaughts.git
 
 ![Use Case Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/use-case.png)
 
-
 ## Classes
 
 ![Class Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/class-diagram.png)
+
+## Tech Stack
+
+![Tech Stack](https://raw.githubusercontent.com/bitnaughts/.github/main/images/tech-stack.png)
 
 ## References
 
