@@ -1,12 +1,11 @@
 ![Banner](https://raw.githubusercontent.com/bitnaughts/bitnaughts.assets/master/Sprites/BUSINESS-FRONT.png)
-![Banner](https://raw.githubusercontent.com/bitnaughts/bitnaughts.assets/master/Sprites/BUSINESS-BACK.png)
 > [Vote - Microsoft Hackathon 2022 Project Page (Microsoft FTE only)](https://hackbox.microsoft.com/project/340)
 
 ## Introduction
 
 BitNaughts is an educational programming video-game; it's code gamified!
 
-- [YouTube - BitNaughts Tutorial](https://www.youtube.com/watch?v=pv2DEBMD4ko)
+- [YouTube - Microsoft Hackathon '22](https://www.youtube.com/watch?v=0ftAfiPsyds)
 - [YouTube - Microsoft Hackathon '21](https://www.youtube.com/watch?v=-gN4dHWMkSI)
 - [YouTube - Microsoft Hackathon '20](https://www.youtube.com/watch?v=kQaZFAu65z4)
 
