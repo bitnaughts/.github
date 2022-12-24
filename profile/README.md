@@ -1,11 +1,11 @@
 ## Introduction
 
 BitNaughts is an educational programming video-game; it's code gamified!
-[☄ BitNaughts 👨‍🏫 Campaign (story, 10:46)](https://studio.youtube.com/video/2WNU1F1iTFA)
-[☄ BitNaughts 📻 Radio Days (teaser, 0:53)](https://www.youtube.com/watch?v=0ZBeHuvttqc)
-[☄ BitNaughts 🐱‍💻 Microsoft Hackathon '22 (pitch, 1:33)](https://www.youtube.com/watch?v=0ftAfiPsyds)
-[☄ BitNaughts 🐱‍💻 Microsoft Hackathon '21 (pitch, 2:18)](https://www.youtube.com/watch?v=8Ayv0u7y0hM)
-[☄ BitNaughts 🐱‍💻 Microsoft Hackathon '20 (pitch, 2:12)](https://www.youtube.com/watch?v=kQaZFAu65z4)
+- [👨‍🏫 Campaign (story, 10:46)](https://studio.youtube.com/video/2WNU1F1iTFA)
+- [📻 Radio Days (teaser, 0:53)](https://www.youtube.com/watch?v=0ZBeHuvttqc)
+- [🐱‍💻 Microsoft Hackathon '22 (pitch, 1:33)](https://www.youtube.com/watch?v=0ftAfiPsyds)
+- [🐱‍💻 Microsoft Hackathon '21 (pitch, 2:18)](https://www.youtube.com/watch?v=8Ayv0u7y0hM)
+- [🐱‍💻 Microsoft Hackathon '20 (pitch, 2:12)](https://www.youtube.com/watch?v=kQaZFAu65z4)
 
 ## Dependencies
 
