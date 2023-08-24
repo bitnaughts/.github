@@ -1,9 +1,9 @@
 ## Introduction
 
 BitNaughts is an educational programming video-game; it's code gamified!
-- [🐱‍💻 Microsoft Hackathon '22 (pitch, 1:33)](https://www.youtube.com/watch?v=0ftAfiPsyds)
-- [🐱‍💻 Microsoft Hackathon '21 (pitch, 2:18)](https://www.youtube.com/watch?v=8Ayv0u7y0hM)
-- [🐱‍💻 Microsoft Hackathon '20 (pitch, 2:12)](https://www.youtube.com/watch?v=kQaZFAu65z4)
+- [Microsoft Hackathon '22 (pitch, 1:33)](https://www.youtube.com/watch?v=0ftAfiPsyds)
+- [Microsoft Hackathon '21 (pitch, 2:18)](https://www.youtube.com/watch?v=8Ayv0u7y0hM)
+- [Microsoft Hackathon '20 (pitch, 2:12)](https://www.youtube.com/watch?v=kQaZFAu65z4)
 
 ## Dependencies
 
@@ -47,7 +47,7 @@ git clone --recurse-submodules https://github.com/bitnaughts/bitnaughts.git
 
 ## Azure References
 
-[BitNaughts - Azure DevOps](https://dev.azure.com/bitnaughts/bitnaughts)
-[BitNaughts - Azure Prod](https://portal.azure.com/#@bitnaughtsgmail.onmicrosoft.com/resource/subscriptions/99d38295-95cf-4487-a77b-4eabaef94645/overview)
-[BitNaughts - Azure Test](https://portal.azure.com/#@bitnaughtsgmail.onmicrosoft.com/resource/subscriptions/6d464dfd-1345-4e2c-9d5c-13d491bb1a5a/overview)
+- [BitNaughts - Azure DevOps](https://dev.azure.com/bitnaughts/bitnaughts)
+- [BitNaughts - Azure Prod](https://portal.azure.com/#@bitnaughtsgmail.onmicrosoft.com/resource/subscriptions/99d38295-95cf-4487-a77b-4eabaef94645/overview)
+- [BitNaughts - Azure Test](https://portal.azure.com/#@bitnaughtsgmail.onmicrosoft.com/resource/subscriptions/6d464dfd-1345-4e2c-9d5c-13d491bb1a5a/overview)
 
