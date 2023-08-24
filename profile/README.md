@@ -45,7 +45,9 @@ git clone --recurse-submodules https://github.com/bitnaughts/bitnaughts.git
 
 ![Tech Stack](https://raw.githubusercontent.com/bitnaughts/.github/main/images/tech-stack.png)
 
-## References
+## Azure References
 
 [BitNaughts - Azure DevOps](https://dev.azure.com/bitnaughts/bitnaughts)
+[BitNaughts - Azure Prod](https://portal.azure.com/#@bitnaughtsgmail.onmicrosoft.com/resource/subscriptions/99d38295-95cf-4487-a77b-4eabaef94645/overview)
+[BitNaughts - Azure Test](https://portal.azure.com/#@bitnaughtsgmail.onmicrosoft.com/resource/subscriptions/6d464dfd-1345-4e2c-9d5c-13d491bb1a5a/overview)
 
