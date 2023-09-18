@@ -1,6 +1,9 @@
 ## Introduction
 
-BitNaughts is an educational programming video-game; it's code gamified!
+Learn the Power of Code! BitNaughts is an educational programming video-game.
+
+![Ship](https://raw.githubusercontent.com/bitnaughts/.github/main/images/bn-2.png)
+
 - [Microsoft Hackathon '23](https://www.youtube.com/watch?v=V7oA7aGZlSE) (3:00)
 - [Microsoft Hackathon '22](https://www.youtube.com/watch?v=0ftAfiPsyds) (1:33)
 - [Microsoft Hackathon '21](https://www.youtube.com/watch?v=8Ayv0u7y0hM) (2:18)
@@ -23,6 +26,8 @@ git clone --recurse-submodules https://github.com/bitnaughts/bitnaughts.git
 
 > Recommendation: Add all submodules to GitHub Desktop.
 
+![Printer](https://raw.githubusercontent.com/bitnaughts/.github/main/images/bn-1.png)
+
 ## Submodules
 
 - [Unity Project](https://github.com/bitnaughts/bitnaughts.unity)
@@ -34,17 +39,13 @@ git clone --recurse-submodules https://github.com/bitnaughts/bitnaughts.git
 - [Frontend](https://github.com/bitnaughts/bitnaughts.github.io)
 - [Backend](https://github.com/bitnaughts/bitnaughts.mainframe)
 
-## Use Cases
-
-![Use Case Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/use-case.png)
-
 ## Classes
 
-![Class Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/class-diagram.png)
+![Class Diagram](https://raw.githubusercontent.com/bitnaughts/.github/main/images/bn-class-diagram.png)
 
 ## Tech Stack
 
-![Tech Stack](https://raw.githubusercontent.com/bitnaughts/.github/main/images/tech-stack.png)
+![Tech Stack](https://raw.githubusercontent.com/bitnaughts/.github/main/images/bn-tech-stack.png)
 
 ## Azure References
 
