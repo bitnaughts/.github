@@ -2,7 +2,7 @@
 
 Learn the power of code! BitNaughts is an educational programming video-game; it's code gamified!
 
-https://github.com/bitnaughts/.github/assets/24861524/fcc9ef03-f96e-4eaa-bc9a-839e34030fc6
+https://github.com/bitnaughts/.github/assets/24861524/63ca7bd4-4d33-4f41-a2a1-0ecdc5a0b75e
 
 - [Microsoft Hackathon '23](https://www.youtube.com/watch?v=V7oA7aGZlSE) (3:00)
 - [Microsoft Hackathon '22](https://www.youtube.com/watch?v=0ftAfiPsyds) (1:33)
