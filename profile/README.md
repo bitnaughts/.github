@@ -2,12 +2,14 @@
 
 Learn the power of code! BitNaughts is an educational programming video-game; it's code gamified!
 
-![Ship](https://raw.githubusercontent.com/bitnaughts/.github/main/images/bn-2.jpg)
+https://github.com/bitnaughts/.github/assets/24861524/fcc9ef03-f96e-4eaa-bc9a-839e34030fc6
 
 - [Microsoft Hackathon '23](https://www.youtube.com/watch?v=V7oA7aGZlSE) (3:00)
 - [Microsoft Hackathon '22](https://www.youtube.com/watch?v=0ftAfiPsyds) (1:33)
 - [Microsoft Hackathon '21](https://www.youtube.com/watch?v=8Ayv0u7y0hM) (2:18)
 - [Microsoft Hackathon '20](https://www.youtube.com/watch?v=kQaZFAu65z4) (2:12)
+
+![Ship](https://raw.githubusercontent.com/bitnaughts/.github/main/images/bn-2.jpg)
 
 ## Dependencies
 
