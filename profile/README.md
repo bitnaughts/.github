@@ -1,6 +1,6 @@
 ## Introduction
 
-Learn the Power of Code! BitNaughts is an educational programming video-game.
+Learn the power of code! BitNaughts is an educational programming video-game; it's code gamified!
 
 ![Ship](https://raw.githubusercontent.com/bitnaughts/.github/main/images/bn-2.jpg)
 
