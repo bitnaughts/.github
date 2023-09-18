@@ -2,7 +2,7 @@
 
 Learn the Power of Code! BitNaughts is an educational programming video-game.
 
-![Ship](https://raw.githubusercontent.com/bitnaughts/.github/main/images/bn-2.png)
+![Ship](https://raw.githubusercontent.com/bitnaughts/.github/main/images/bn-2.jpg)
 
 - [Microsoft Hackathon '23](https://www.youtube.com/watch?v=V7oA7aGZlSE) (3:00)
 - [Microsoft Hackathon '22](https://www.youtube.com/watch?v=0ftAfiPsyds) (1:33)
@@ -26,7 +26,7 @@ git clone --recurse-submodules https://github.com/bitnaughts/bitnaughts.git
 
 > Recommendation: Add all submodules to GitHub Desktop.
 
-![Printer](https://raw.githubusercontent.com/bitnaughts/.github/main/images/bn-1.png)
+![Printer](https://raw.githubusercontent.com/bitnaughts/.github/main/images/bn-1.jpg)
 
 ## Submodules
 
